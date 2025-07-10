@@ -1,46 +1,13 @@
-import { StyleSheet, View } from "react-native";
+import { StyleSheet } from "react-native";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+
+import RingBoard from "@/components/RingBoard";
+
 export default function Index() {
   return (
-    <View style={styles.container}>
-      <View
-        style={{
-          justifyContent: "center",
-          alignItems: "center",
-          width: 360,
-          height: 360,
-          backgroundColor: "#fff",
-          borderColor: "#000",
-          borderWidth: 1,
-          padding: 8,
-        }}
-      >
-        <View
-          style={{
-            justifyContent: "center",
-            alignItems: "center",
-            width: "100%",
-            height: "100%",
-            backgroundColor: "#fff",
-            borderColor: "#000",
-            borderWidth: 1,
-            borderRadius: "50%",
-          }}
-        >
-          <View
-            style={{
-              justifyContent: "center",
-              alignItems: "center",
-              width: "90%",
-              height: "90%",
-              backgroundColor: "#fff",
-              borderColor: "#000",
-              borderWidth: 1,
-              borderRadius: "50%",
-            }}
-          ></View>
-        </View>
-      </View>
-    </View>
+    <GestureHandlerRootView style={styles.container}>
+      <RingBoard></RingBoard>
+    </GestureHandlerRootView>
   );
 }
 
