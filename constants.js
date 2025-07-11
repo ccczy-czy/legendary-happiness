@@ -13,4 +13,6 @@ const ringColors = [
 
 const initialRingSize = 360;
 
-export { initialRingSize, ringColors };
+const dotSize = 14;
+
+export { dotSize, initialRingSize, ringColors };
