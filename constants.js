@@ -11,8 +11,10 @@ const ringColors = [
   "#ffd600",
 ];
 
-const initialRingSize = 360;
+const initialRingRadius = 180;
 
-const dotSize = 14;
+const ringGap = 18;
 
-export { dotSize, initialRingSize, ringColors };
+const dotRadius = 7;
+
+export { dotRadius, initialRingRadius, ringColors, ringGap };

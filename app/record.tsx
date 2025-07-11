@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 
-import RingBoard from "@/components/RingBoard";
+import RingBoard from "@/components/CircleBoard";
 
 export default function Index() {
   return (
